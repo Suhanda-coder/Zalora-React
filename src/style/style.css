@@ -1,0 +1,347 @@
+*{
+    margin:0px;
+    padding: 0px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#wrapper {
+    width:100%;
+    min-height:600px;
+}
+#wrapper #header {
+    height: 80px;
+    background-color:black;
+    
+    }
+#wrapper #header #hleft {
+    width: 600px;
+    float: left;
+}
+
+#wrapper #header #hleft ul{
+    list-style-type: none;
+
+}
+#wrapper #header #hleft h1 a{
+    font-size: 30px;
+    color: white;
+    text-align: left;
+    float: left;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight:40px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+#wrapper #header #hleft ul a{
+    font-size: 20px;
+    color: white;
+    text-align: right;
+    float: left;
+    margin-left: 40px;
+    text-decoration: none;
+    margin-top: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#wrapper #header #hleft ul li a:hover{
+    color: greenyellow;
+}
+
+.form {
+    width:50px;
+}
+.search {
+    padding:4px 15px;
+    background:white;
+    border:0px solid #dbdbdb;
+    margin-left: 30px;
+    margin-top: 20px;
+
+}
+.button {
+    position:relative;
+    padding:3px 30px;
+    left:-8px;
+    background-color:white;
+    color:black;
+}
+#wrapper #hea
+#wrapper #header_right {
+    width: 100px;
+    float: right;
+
+}
+
+#header_right img{
+        margin-top: -80px;
+}
+
+#header_right input{
+    margin-top: 20px;
+}
+
+#wrapper #header #header_right ul{
+    list-style-type: none;
+}
+
+#wrapper #header #header_right ul a{
+    text-align: right;
+    float: right;
+    margin-right: 10px;
+    text-decoration: none;
+    margin-top: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#wrapper #header2{
+    background-color: white;
+    height: 80px;
+}
+#wrapper #header2 ul{
+    width:  1000px;
+}
+#wrapper #header2 ul li {
+    width: 100px;
+    list-style-type: none;
+    display: inline;
+    margin-left: 30px;
+    
+}
+#wrapper #header2 ul li a{
+    font-size: 10px;
+    display: block;
+    height: 30px;
+    padding-top: 5px;
+    float: left;
+    color: black;
+    margin-right: 40px;
+    margin-left: 10px;
+    text-decoration: none;
+    margin-top: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#wrapper #content #contents1 #img{
+    width: 100px;
+}
+
+.container ul li a img{
+    display: inline;
+    vertical-align: middle;
+    margin-top: -8px;
+}
+
+#wrapper #content{
+    min-height: 400px;
+}
+#wrapper #content #contents{
+    
+}
+#wrapper #content #contents img  {
+    width: 1200px;
+    
+}
+#wrapper #content #contents img:hover {
+    opacity: 0.5;
+    background: transparent;    
+
+}
+#wrapper #content #contents #content2{
+    width:  1000px;
+}
+#wrapper #content #contents #content2 ul li {
+    width: 100px;
+    list-style-type: none;
+    display: inline;
+    margin-left: 20px;
+       
+}
+#wrapper #content #contents #content2 li a{
+    font-size: 15px;
+    display: block;
+    height: 30px;
+    padding-top: 5px;
+    float: left;
+    color:black;
+    margin-left: 0px;
+    text-decoration: none;
+    margin-top: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#wrapper #content #content4 img{
+    height: 500px;
+    width:1200px;
+}
+#wrapper #content #content4 img :hover{
+    opacity: 0.5;
+    background: transparent;
+        
+}
+#wrapper #content #content5 img{
+    height: 50px;
+    width:1000px;
+    margin-top: 50px;
+    background-color: orangered;
+
+}
+
+#wrapper #sponsor{
+    margin-top: 80px;
+    width:1200px;
+    min-height:250px;
+}
+
+#wrapper #best h1{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+#wrapper #best img{  
+    float: left;
+    height:70px;
+    margin-left:50px;
+    margin-right: 20px;
+    width: 200px;
+    height: auto;
+}
+
+#wrapper #best img:hover{
+    opacity: 0.5;
+    background: transparent;
+}
+
+#wrapper #best ul{
+    list-style-type: none;
+}
+
+#wrapper #best ul a{
+    text-align: right;
+    float: right;
+    margin-right: 10px;
+    text-decoration: none;
+    margin-top: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#wrapper #best ul a:hover{
+    color: indigo;
+}
+#wrapper #sponsor h1{
+
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#wrapper #sponsor img{  
+    float: left;
+    height:70px;
+    margin-left:10px;
+    margin-right: px;
+    width: 150px;
+}
+
+#wrapper #sponsor img:hover{
+    opacity: 0.5;
+    background: transparent;
+}
+
+#wrapper #product{
+    margin-top: 80px;
+    width:1000px;
+    min-height:45px;
+}
+
+#wrapper #product h1{
+
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+
+#wrapper #product img{
+  
+    float: left;
+    height:200px;
+    margin-left:10px;
+    margin-bottom: 20px;
+
+}
+
+#wrapper #product img:hover{
+    opacity: 0.5;
+    background: transparent;
+}
+
+#wrapper #product .product_site{
+    float:left;
+    width: 300xpx;
+
+}
+#wrapper #product .product_site2{
+    float: left;
+    width: 300xpx;
+
+}
+#contener{
+    width: 1000px;
+    margin: auto;
+    
+}
+#wrapper #product h2{
+    margin-top: 20px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-bottom: 10px;
+
+}
+#wrapper #product p{
+    margin-top: 20px;
+    font-size: 12px;
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+    margin-bottom: 10px;
+    line-height: 20px;
+
+}
+#wrapper #footer{
+    background-color: black;
+    height: 400px;
+    color: white;
+    font-size:100px;
+}
+
+#wrapper #footer #kaki{
+    min-height: 180px;
+    overflow: hidden;
+    scroll-margin-bottom: 20px;
+}
+#wrapper #content #kaki .footerer {
+    float: left;
+    width: 215px;
+    min-height: 180px;
+    margin-right: 27px;
+
+}
+#wrapper #content #kaki .footerer:last-child {
+    margin-right:0px;
+}
+#wrapper #content #kaki .content_top_item img{
+    margin-bottom: 10px;
+}
+#wrapper #content #kaki .content_top_item p{
+    margin-bottom: 10px;
+    text-align: justify;
+}
+.container {
+    width: 1000px;
+    overflow: hidden;
+    min-height: 45px;
+    margin: auto;
+}
